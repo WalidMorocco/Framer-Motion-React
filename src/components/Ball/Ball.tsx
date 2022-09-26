@@ -8,7 +8,7 @@ export const Ball = () => {
   
 
   return ( 
-    <div className="grid place-items-center h-full">
+    <div className="">
       <motion.div   className=" grid place-items-center h-80 w-80 bg-red-400 rounded-[50%]"
         transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.6 }}
       >
