@@ -1,9 +1,10 @@
 import './App.css';
+import { Layout } from './components/Layout';
 import { MyComponent } from './components/MyComponent';
 
 function App() {
   return (
-    <div className="grid place-items-center h-screen">
+    <div className="">
       <MyComponent />
     </div>
   );

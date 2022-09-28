@@ -1,4 +1,3 @@
-import "./styles.css";
 import { useState } from "react";
 import { motion, Variants } from "framer-motion";
 
@@ -18,7 +17,7 @@ export default function Nav() {
     <motion.nav
       initial={false}
       animate={isOpen ? "open" : "closed"}
-      className="menu"
+      className="border w-1/5 px-2 sm:px-4 py-2.5 rounded bg-dark"
     >
       <motion.button
         whileTap={{ scale: 0.97 }}
@@ -38,7 +37,9 @@ export default function Nav() {
           </svg>
         </motion.div>
       </motion.button>
-      <motion.ul
+
+      
+      {/* <motion.ul
         variants={{
           open: {
             clipPath: "inset(0% 0% 0% 0% round 10px)",
@@ -66,7 +67,9 @@ export default function Nav() {
         <motion.li variants={itemVariants}>Item 3 </motion.li>
         <motion.li variants={itemVariants}>Item 4 </motion.li>
         <motion.li variants={itemVariants}>Item 5 </motion.li>
-      </motion.ul>
+      </motion.ul> */}
+
+      
     </motion.nav>
   );
 }

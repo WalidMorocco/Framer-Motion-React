@@ -56,7 +56,7 @@ export const MyComponent = () => {
       animate={isOpen ? "open" : "closed"}
       className="h-screen grid place-items-center">
         <div>
-          <Ball />
+          <Ball/>
           <div className="z-20 border border-black ">
             <motion.button
               whileTap={{ scale: 0.97 }}
